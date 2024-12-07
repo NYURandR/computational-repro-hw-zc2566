@@ -1,0 +1,31 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+---
+title: "ComputationalRepro21_VilcekHW"
+author: "Fred LaPolla"
+date: "11/3/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Homework
+
+1) Please explain 1 of Wilson et. al's suggestions for good practices in computational reproducibility:
+
+Wilson et al. suggests that scientists should keep organized and clear records of how their projects have changed over time. Copies of previous drafts ought to be carefully labeled and stored so that others can easily see how your project evolved and came to be. This can aid with reducing deplicate functions and can help you to keep track of all your doing and learn from previous drafts. 
+
+
+
+2) Please find the square root of 4 to the 13th power, writing your code in the gray box below so that it executes and provides the answer. Hit the play button to make sure it works:
+
+```{r} 
+sqrt(4)^13
+```
+
+3) Save your file and add it to your GitHub repository at: https://classroom.github.com/a/WO52_vGE
+
